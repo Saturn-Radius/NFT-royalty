@@ -7,7 +7,7 @@ require("@nomiclabs/hardhat-etherscan");
 require("@nomiclabs/hardhat-waffle");
 const { PRIVATE_KEY } = process.env;
 module.exports = {
-   defaultNetwork: "goerli",
+   defaultNetwork: "hardhat",
    networks: {
       hardhat: {},
       goerli: {
